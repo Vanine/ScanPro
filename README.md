@@ -1,6 +1,12 @@
 # ScanDoc
 
-A production-quality iOS document scanner with OCR and PDF export, written in SwiftUI.
+An iOS document scanner with OCR and PDF export, written in SwiftUI.
+
+## Screenshots
+
+| Home | Scanner | OCR | Editor |
+|------|---------|-----|--------|
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/scanner.png" width="200"/> | <img src="screenshots/ocr.png" width="200"/> | <img src="screenshots/editor.png" width="200"/> |
 
 ## Features
 
@@ -14,12 +20,6 @@ A production-quality iOS document scanner with OCR and PDF export, written in Sw
 - **Tagging System** — flat, lightweight tags per document with quick filtering on Home.
 - **Offline-first** — everything runs on-device. No network required.
 - **Light & Dark Mode** — adaptive system colors throughout.
-
-## Screenshots
-
-| Home | Scanner | OCR | Editor |
-|------|---------|-----|--------|
-| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/scanner.png" width="200"/> | <img src="screenshots/ocr.png" width="200"/> | <img src="screenshots/editor.png" width="200"/> |
 
 ## Architecture
 
