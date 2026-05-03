@@ -58,7 +58,7 @@ ScanDoc/
 
 ## Tech stack
 
-- SwiftUI (iOS 17+)
+- SwiftUI (iOS 18+)
 - VisionKit — `VNDocumentCameraViewController`
 - Vision — `VNRecognizeTextRequest` (accurate, language correction, revision 3)
 - PDFKit / `UIGraphicsPDFRenderer`
