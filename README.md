@@ -5,7 +5,7 @@ A production-quality iOS document scanner with OCR and PDF export, written in Sw
 ## Features
 
 - **Camera Scanner** — automatic document edge detection, manual corner adjustment, perspective correction, and built-in filters (color / grayscale / B&W) powered by VisionKit's `VNDocumentCameraViewController`.
-- **OCR (Text Recognition)** — Vision framework's `VNRecognizeTextRequest` (accurate revision 3) with multi-language support, editable text view, and in-image highlight overlays for matched words.
+- **OCR (Text Recognition)** — Vision framework's `VNRecognizeTextRequest` (accurate revision 3) with editable text view, and in-image highlight overlays for matched words.
 - **Document Management** — list, rename, delete, tag, and search documents. Recently scanned shelf for fast access.
 - **PDF Export** — combine pages into A4 PDFs with `UIGraphicsPDFRenderer`. Share via the system share sheet or save to Files.
 - **Multi-page Scanning** — capture multiple pages into a single document, reorder, or delete pages.
@@ -14,6 +14,12 @@ A production-quality iOS document scanner with OCR and PDF export, written in Sw
 - **Tagging System** — flat, lightweight tags per document with quick filtering on Home.
 - **Offline-first** — everything runs on-device. No network required.
 - **Light & Dark Mode** — adaptive system colors throughout.
+
+## Screenshots
+
+| Home | Scanner | OCR | Editor |
+|------|---------|-----|--------|
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/scanner.png" width="200"/> | <img src="screenshots/ocr.png" width="200"/> | <img src="screenshots/editor.png" width="200"/> |
 
 ## Architecture
 
@@ -60,14 +66,6 @@ ScanDoc/
 - FileManager-backed persistence (Codable JSON manifest per document)
 - Combine — for store → view binding
 - XCTest — unit tests for services and ViewModels
-
-## Screenshots
-
-> _Screenshots placeholder — add captured images once you run the app on a device._
-
-| Home | Scanner | OCR | Editor |
-|------|---------|-----|--------|
-| `screenshots/home.png` | `screenshots/scanner.png` | `screenshots/ocr.png` | `screenshots/editor.png` |
 
 ## Challenges
 

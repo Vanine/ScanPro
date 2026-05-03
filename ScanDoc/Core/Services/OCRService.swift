@@ -42,10 +42,7 @@ final class OCRService: OCRServiceProtocol, @unchecked Sendable {
     }
 
     var supportedLanguages: [String] {
-        (try? VNRecognizeTextRequest.supportedRecognitionLanguages(
-            for: .accurate,
-            revision: VNRecognizeTextRequestRevision3
-        )) ?? ["en-US"]
+        ["en-US"]
     }
 
     func recognize(image: UIImage, languages: [String]) async throws -> OCRResult {
