@@ -1,0 +1,53 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# IPA files
+*.ipa
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+*.env
+*.key
+*.p12
+*.mobileprovision
+
+# Firebase / Google config (optional — depends if you want to track it)
+GoogleService-Info.plist
+
+# Temporary files
+*.swp
+*.tmp
